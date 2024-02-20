@@ -87,11 +87,20 @@ main {
 .produits {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .produits li {
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
+    border: #151515 2px solid;
+    flex-shrink: 2;
+    flex-grow: 0;
+    flex-basis: 40%;
 }
 
 .produits li:hover {
@@ -113,4 +122,5 @@ main {
     text-align: center;
     margin: .5em 0 0;
     line-height: 1.1;
+    color: #ff8800;
 }
