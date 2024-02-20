@@ -124,3 +124,15 @@ main {
     line-height: 1.1;
     color: #ff8800;
 }
+
+/*********** Footer ***********/
+
+footer {
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px;
+}
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
