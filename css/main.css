@@ -92,6 +92,7 @@ main {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .produits li {
